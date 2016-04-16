@@ -1,6 +1,6 @@
 html,body{
   background: #333333;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
   outline: none;
   color: #333;
 }
@@ -8,6 +8,38 @@ div{
   display: block;
 }
 
+
+/*导航部分样式*/
+.navbar{
+	background: #000000;
+	border: none;
+	font-size: 16px;
+}
+.navbar .container .navbar-header .navbar-brand{
+	padding: 5px 0;
+}
+
+.navbar .container .navbar-header .navbar-brand img{
+	height: 100%;
+	width: 100%;
+}
+.navbar .container #navbar ul li:hover{
+	background: #B3B3B3;
+}
+
+.navbar .container #navbar li a{
+	color: #EEEEEE;
+}
+
+.navbar .container #navbar .dropdown .dropdown-menu{
+	background: #000000;
+	opacity: 0.7;
+}
+
+
+
+
+/*主体部分样式*/
 .container-fluid{
   padding-left: 0;
   padding-right: 0;
@@ -18,7 +50,7 @@ div{
   height: 600px;
 }
 .hero-unit:hover{
-  opacity: 0.5;
+/*  opacity: 0.5;*/
 }
 
 
@@ -61,7 +93,7 @@ div{
 
 .topbox .content .btnContainer{
   width: 100%;
-  height: 37px;
+  height: 45px;
   margin: 19px 0 27px 0;
 }
 
@@ -85,24 +117,107 @@ div{
 
 
 .middlebox .col-md-6{
+	height: 519px;
 	padding: 0;
+	background: #000000;
 }
 
 .middlebox .col-md-6 .direction{
 	height: 20px;
-	background: #000000;
+	background: #222222;
 }
+
 
 .middlebox .col-md-6 .contentbox{
 	width: 100%;
 	height: 430px;
-	background: #222222;
+
 }
 
-.middlebox .col-md-6 .contentbox img{
+.middlebox .left .contentbox .title {
 	width: 100%;
-	height: 100%;
+	height: 63px;
+	color: #FFFFFF;
+	font-size: 24px;
+	line-height: 62px;
+	text-align: center;
 }
+
+.middlebox .left .contentbox .title span{
+	color: #a5a5a5;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.middlebox .left .contentbox .maincontent{
+	padding: 0 20px; 
+}
+
+.middlebox .left .contentbox .maincontent .pic{
+	width: 200px;
+	margin: 60px 15px;
+	float: left;
+}
+.middlebox .left .contentbox .maincontent .pic img{
+	width: 100%;
+	height: 150px;
+	margin: 10px 0;
+	text-align: center;
+	border-radius: 5px;
+}
+
+
+
+.middlebox .left .contentbox .maincontent .messagelist{
+	width: 400px;
+	height: 252px;
+	margin: 40px 0;
+	float: left;
+
+}
+
+.middlebox .left .contentbox .maincontent .messagelist ul{
+	list-style: none;
+	padding: 0;
+}
+
+.middlebox .left .contentbox .maincontent .messagelist ul li{
+	width: 100%;
+	height: 80px;
+	padding: 13px 0 0 0;
+	line-height: normal;
+	border-bottom: #333 solid 1px
+}
+
+
+.middlebox .left .contentbox .btnContainer{
+  width: 100%;
+  height: 85px;
+  margin: 300px 0 0 0;
+  padding: 20px 10px 15px 10px;
+  background: #000000;
+  text-align: center;
+}
+
+.middlebox .left .contentbox .btnContainer .btnRead{
+  width: 104px;
+  height: 40px;
+  margin: auto;
+   text-align: center;
+  border: 1px solid #E0E0E0;
+}
+
+.middlebox .left .contentbox .btnContainer .btnRead a{
+
+   color:#b3b3b3;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+}
+
+
+
+
+
 
 
 
@@ -132,3 +247,5 @@ div{
 	height: 600px;
 	background: url(../images/footer.jpg) no-repeat;
 }
+
+
