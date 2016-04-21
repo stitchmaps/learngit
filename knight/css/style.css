@@ -8,6 +8,10 @@ div{
   display: block;
 }
 
+span{
+ 	color: #848484;;
+}
+
 
 /*导航部分样式*/
 .navbar{
@@ -68,8 +72,14 @@ div{
   cursor:pointer;
 }
 
+.topbox .content .pic{
+	height: 202px;
+	width: 100%;
+}
+
 .topbox .content img{
    max-width: 100%;
+   height: 100%;
 }
 
 .topbox .content .text{
