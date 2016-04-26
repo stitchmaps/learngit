@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	margin: 0;
+	padding: 0;
+	background: #dbdfe1;
+	color: white;
+	font-family: Microsoft YaHei, Arial, Tahoma, Helvetica, sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+ul li{
+	list-style: none;
+}
+
+
+/*****************************************************/
+/*导航栏部分*/
+.navwrap{
+	height: 163px;
+	background: #0c89b7;
+}
+
+.navwrap .banner{
+	height: 109px;
+	border-bottom: 1px solid white;
+}
+
+.navwrap .navbar{
+	width: 950px;
+	height: 53px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.navwrap .navbar .nav{
+	width: 580px;
+	height: 100%;
+	margin: 0;
+	float: left;
+}
+
+.navwrap .nav>li{
+	height: 53px;
+	width: 85px;
+	margin: 0 15px;
+	list-style: none;
+	float: left;
+	text-align: center;
+	border-radius: 3px;
+}
+.navwrap .nav>li:hover{
+	background: #ADADAD;
+}
+
+
+.navwrap .nav>li>a{
+	font-size: 18px;
+	line-height: 53px;
+}
+
+
+.navwrap .navright{
+	width: 200px;
+	float: right;
+	padding: 16px;
+}
+
+
+/******************************************************/
+/*巨幕轮播图*/
+
+.jumbowrap{
+	width: 100%;
+	height: 400px;
+}
+
+.jumbowrap .jumbotron{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.jumbowrap .jumbotron>img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+/*********************************************************/
+/*内容模块*/
+
+.contentwrap{
+	width: 100%;
+	height: 320px;
+}
+
+.contentwrap .content{
+	width: 1000px;
+	height: 320px;
+	margin: 0 auto;
+	background: #F0F3F3;
+}
+.contentwrap .content .main{
+	float: left;
+}
+
+.contentwrap .content .main>ul>li{
+	height: 28px;
+    line-height: 28px;
+    width: 350px;;
+}
+
+.contentwrap .content .main li>a{
+	color: #666;
+	font-size: 14px;
+}
+
+
+.contentwrap .content .main>.news{
+	width: 385px;
+    height: 276px;
+    padding: 20px;
+    float: left;
+
+}
+
+.contentwrap .content .main>.focus{
+	width: 340px;
+    height: 276px;
+    padding: 20px;
+    float: left;
+
+}
+
+
+.contentwrap .content .rightside{
+	width: 153px;
+	height: 276px;
+	padding: 20px;
+	float: left;
+}
+
+
+
+
+
+/*********************************************************/
+/*页脚*/
+
+.footer{
+	width: 100%;
+	height: 96px;
+	background: #0c89b7;
+	text-align: center;
+}
+
+.footer>p{
+	padding-top: 20px;
+	font-size: 13px;
+}
