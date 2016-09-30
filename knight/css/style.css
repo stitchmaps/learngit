@@ -1,0 +1,341 @@
+html,body{
+  background: #333333;
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+  outline: none;
+  color: #333;
+}
+div{
+  display: block;
+}
+
+span{
+ 	color: #848484;;
+}
+
+
+/*导航部分样式*/
+.navbar{
+	background: #000000;
+	border: none;
+	font-size: 16px;
+}
+.navbar .container .navbar-header .navbar-brand{
+	padding: 5px 0;
+}
+
+.navbar .container .navbar-header .navbar-brand img{
+	height: 100%;
+	width: 100%;
+}
+.navbar .container #navbar ul li:hover{
+	background: #B3B3B3;
+}
+
+.navbar .container #navbar li a{
+	color: #EEEEEE;
+}
+
+.navbar .container #navbar .dropdown .dropdown-menu{
+	background: #000000;
+	opacity: 0.7;
+}
+
+
+
+
+/*主体部分样式*/
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+.hero-unit{
+  background: url(../images/hero.jpg) no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+.hero-unit:hover{
+/*  opacity: 0.5;*/
+}
+
+
+
+.topbox{
+  width: 100%;
+  padding: 53px 12px 22px 12px;
+  background: #202020;
+  color: white;
+}
+.topbox .content{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+  cursor:pointer;
+}
+
+.topbox .content .pic{
+	height: 202px;
+	width: 100%;
+}
+
+.topbox .content img{
+   max-width: 100%;
+   height: 100%;
+}
+
+.topbox .content .text{
+  height: 18px;
+  width: 100%;
+  margin: 19px 0 0 0;
+  padding: 0 10px;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.topbox .content .stext{
+  width: 100%;
+  height: 36px;
+  margin: 9px 0 0 0;
+  font-size: 12px;
+  color: #848484;
+  line-height: 18px;
+  text-align: center;
+}
+
+.topbox .content .btnContainer{
+  width: 100%;
+  height: 45px;
+  margin: 19px 0 27px 0;
+}
+
+.topbox .content .btnContainer .btnRead{
+  width: 104px;
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.topbox .content .btnContainer .btnRead a{
+
+   color:#b3b3b3;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   line-height: 35px;
+}
+
+
+/* topbox内容hover效果*/
+.topbox .content:hover img{
+	opacity: 0.7;
+}
+.topbox .content:hover .btnRead{
+	background: white;
+}
+.topbox .content:hover .btnRead a{
+	color: black;
+}
+
+
+
+.middlebox .col-md-6{
+	height: 550px;
+	padding: 0;
+	background: #000000;
+}
+
+.middlebox .col-md-6 .direction{
+	height: 20px;
+	background: #222222;
+}
+
+
+.middlebox .left .contentbox{
+	width: 100%;
+	height: 400px;
+}
+
+.middlebox .right .contentbox{
+	width: 100%;
+	height: 500px;
+}
+
+.middlebox .right img{
+	width: 100%;
+	height: 100%;
+	
+	
+}
+
+.middlebox .left .contentbox .title {
+	width: 100%;
+	height: 63px;
+	color: #FFFFFF;
+	font-size: 24px;
+	line-height: 62px;
+	text-align: center;
+}
+
+.middlebox .left .contentbox .title span{
+	color: #a5a5a5;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.middlebox .left .contentbox .maincontent{
+	padding: 0 20px; 
+}
+
+.middlebox .left .contentbox .maincontent .pic{
+	width: 200px;
+	margin: 60px 15px;
+	float: left;
+}
+.middlebox .left .contentbox .maincontent .pic img{
+	width: 100%;
+	height: 150px;
+	margin: 10px 0;
+	text-align: center;
+	border-radius: 5px;
+}
+
+
+
+.middlebox .left .contentbox .maincontent .messagelist{
+	width: 400px;
+	height: 252px;
+	margin: 40px 0;
+	float: left;
+
+}
+
+.middlebox .left .contentbox .maincontent .messagelist ul{
+	list-style: none;
+	padding: 0;
+}
+
+.middlebox .left .contentbox .maincontent .messagelist ul li{
+	width: 100%;
+	height: 80px;
+	padding: 13px 0 0 0;
+	line-height: normal;
+	border-bottom: #333 solid 1px
+}
+
+
+.middlebox .left  .btnContainer{
+  width: 100%;
+  height: 85px;
+  margin: 0;
+  padding: 20px 10px 15px 10px;
+  background: #000000;
+  text-align: center;
+}
+
+.middlebox .left  .btnContainer .btnRead{
+  width: 104px;
+  height: 40px;
+  margin: auto;
+  text-align: center;
+  border: 1px solid #E0E0E0;
+}
+
+.middlebox .left  .btnContainer .btnRead a{
+
+   color:#b3b3b3;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   margin: 0 auto;
+   line-height: 35px;
+}
+
+
+
+
+
+
+
+
+.bottombox{
+	padding: 0;
+}
+
+.bottombox .blackline{
+	width: 100%;
+	height: 45px;
+	background: #202020;
+}
+
+.bottombox .mappic{
+	width: 100%;
+	height: 520px;
+}
+
+.bottombox .mappic img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.footerbox{
+	width: 100%;
+	height: 600px;
+	background: url(../images/footer.jpg) no-repeat;
+	position: relative;
+	padding-top: 20px;
+}
+
+.footerbox .contactbox .contact{
+	width: 100%;
+	color: #a5a5a5;
+	padding-left: 50px;
+	margin: 0 0 80px 0;
+}
+
+.footerbox .contactbox .ssponser ul{
+	display: block;
+	overflow: hidden;
+	padding: 20px 40px 20px 55px;
+}
+.footerbox  .contactbox .ssponser ul li{
+
+	margin: 15px;
+	list-style: none;
+	display: block;
+	float: left;
+	
+}
+
+.footerbox  .contactbox .ssponser ul li div{
+   width: 65px;
+   height: 65px;
+
+}
+
+.footerbox  .contactbox .ssponser ul li div img{
+	width: 100%;
+	height: 100%;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+
+.footer{
+	width: 100%;
+	height: 150px;
+	position: absolute;
+	bottom: 0;
+	color: white;
+}
+
+.footer .footerleft{
+   width: 50%;
+   height: 80px;;
+   line-height: 26px;
+   padding-left: 50px;
+   float: left;
+}
+
+.footer .footerright{
+	padding-left: 250px;
+	float: left;
+}

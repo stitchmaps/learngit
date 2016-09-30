@@ -1,0 +1,220 @@
+
+p,span{
+	color: #848484;
+}
+
+/**************************************************/
+/*新闻页面*/
+.hero-unit{
+	width: 100%;
+	height: 100%;
+}
+.hero-unit img{
+	width: 100%;
+	height: 100%;
+}
+.newsmain{
+	width: 100%;
+	background: #333333;
+}
+
+
+.newsmain .title{
+	width: 100%;
+	height: 250px;
+	padding: 50px;
+	background: black;
+	color: white;
+	text-align: center;
+}
+.newsmain .title h2{
+	margin: 0;
+}
+.newsmain .newsbox{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+.newsmain .newsbox .new{
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.newsmain .newsbox>.new:nth-child(2n){
+	background: black;
+}
+
+.newsmain .newsbox .new .date{
+	width: 10%;
+	min-width: 80px;
+	height: 100%;
+	padding-top:60px ;
+/*	background: white;*/
+	color: white;
+	float: left;
+	text-align: center;
+}
+
+.newsmain .newsbox .new .cont{
+	width: 90%;
+	height: 100%;
+/*	background:red;*/
+	float: left;
+}
+
+.newsmain .newsbox .new .cont .pic{
+	height: 150px;
+	width: 200px;
+	margin: 40px 20px 40px 50px;
+	float: left;
+/*	background: #ADADAD;*/
+}
+
+.newsmain .newsbox .new .cont .pic img{
+	width: 100%;
+	height: 100%;
+    border-radius: 20px;
+}
+
+
+.newsmain .newsbox .new .cont .text{
+	height: 180px;
+	width: 500px;
+	margin:30px 50px 30px 150px ;
+	padding: 20px 30px 20px 30px;
+	color: white;
+/*	background: #5CB85C;*/
+	text-align: center;
+	float: left;
+}
+
+
+
+/******************************************************/
+/*车队简介页面*/
+body,html{
+	background: black;
+}
+.infomain{
+	width: 100%;
+	background: #000000;
+}
+
+.infomain>.fixcont{
+	width: 40%;
+	height: 100%;
+	background: url(../images/bg3.jpg) repeat;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);  
+    opacity: 0.8;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index:999;
+	color: white;
+	text-align: center;
+	padding: 100px 30px 100px 30px;
+}
+
+.infomain>.fixcont p{
+	text-align: left;
+	color: white;
+}
+
+.infomain>.infopic{
+	width: 50%;
+	margin-left: 40%;
+	padding: 100px 80px 50px 100px;
+	z-index: 1;
+}
+
+.infomain>.infopic div{
+	width: 500px;
+	height: 500px;
+	padding: 0;
+}
+
+.infomain>.infopic div img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/*******************************************************/
+/*精彩展示页面*/
+.exmain{
+	width: 100%;
+	height: auto;
+	background: url(../images/bgbg.jpg) no-repeat;
+	background-size: cover;
+}
+
+.exmain #player{
+	width: 900px;
+	height: 600px;
+	margin: 0 auto;
+	padding:85px 100px 50px 100px;
+}
+
+.exmain #pic{
+	overflow: hidden;
+}
+.exmain #pic ul>li{
+	width: 420px;
+	height: 350px;
+	padding: 50px;
+	float: left;
+	list-style: none;
+}
+
+.exmain #pic ul>li img{
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 2px 15px 1px rgba(0, 0,0,0.5);
+}
+
+
+/******************************************/
+/*赞助页面*/
+
+.spmain{
+	width: 100%;
+	height: auto;
+	padding:100px 300px;
+}
+
+.spmain .fixnav{
+	width: 200px;
+	height: 150px;
+	position: fixed;
+	left: 0;
+	top: 150px;
+}
+.spmain .fixnav a{
+	width: 100%;
+	height: 33%;
+	display: block;
+	border: 1px solid #E5E5E5;
+	text-align: center;
+	font-size: 20px;
+	line-height: 45px;
+	text-decoration: none;
+	color: #A5A5A5;
+}
+.spmain .fixnav a:hover{
+	background: white;
+}
+.spmain div{
+	border: 1px solid white;
+}
+
+.spmain div p,h3{
+	color: #EBEBEB;
+}
+
+.spmain div h3{
+	text-align: center;
+}
